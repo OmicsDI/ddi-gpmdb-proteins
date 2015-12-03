@@ -1,12 +1,9 @@
 package uk.ac.ebi.ddi.gpmdb.extws.gpmdb.client;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import uk.ac.ebi.ddi.gpmdb.extws.gpmdb.config.GPMDBWsConfigProd;
-import uk.ac.ebi.ddi.gpmdb.extws.gpmdb.model.ProteinList;
-
-import static org.junit.Assert.*;
+import uk.ac.ebi.ddi.gpmdb.extws.gpmdb.model.Model;
 
 /**
  * @author Yasset Perez-Riverol (ypriverol@gmail.com)
@@ -26,5 +23,11 @@ public class ModelGPMDBClientTest {
         String[] proteins = client.getAllProteins("GPM10100159682");
         System.out.println(proteins);
 
+    }
+
+    @Test
+    public void testGeModelInformation() throws Exception {
+        Model model = client.getModelInformation("GPM32320014494");
+        System.out.println(model.toString());
     }
 }

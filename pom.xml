@@ -15,7 +15,7 @@
     <version>1.0-SNAPSHOT</version>
 
 
-    <name>ddi-mw-reader</name>
+    <name>ddi-gpmdb-proteins</name>
     <description>Retrireve the list of proteins and the database for a GPMDB dataset</description>
 
     <licenses>

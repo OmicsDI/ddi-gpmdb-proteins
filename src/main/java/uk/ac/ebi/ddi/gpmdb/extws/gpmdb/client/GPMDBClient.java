@@ -8,6 +8,7 @@ import uk.ac.ebi.ddi.gpmdb.extws.gpmdb.config.AbstractGPMDBWsConfig;
  *
  * @author ypriverol
  */
+
 public class GPMDBClient {
 
     protected RestTemplate restTemplate;
