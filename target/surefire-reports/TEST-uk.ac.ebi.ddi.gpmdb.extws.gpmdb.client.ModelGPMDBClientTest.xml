@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="2.319" errors="0" skipped="0" tests="2" name="uk.ac.ebi.ddi.gpmdb.extws.gpmdb.client.ModelGPMDBClientTest">
+<testsuite failures="0" time="2.792" errors="0" skipped="0" tests="2" name="uk.ac.ebi.ddi.gpmdb.extws.gpmdb.client.ModelGPMDBClientTest">
   <properties>
     <property name="idea.version" value="15.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -13,7 +13,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7532"/>
+    <property name="idea.launcher.port" value="7537"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -66,6 +66,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="1.888" classname="uk.ac.ebi.ddi.gpmdb.extws.gpmdb.client.ModelGPMDBClientTest" name="testGetAllProteins"/>
-  <testcase time="0.431" classname="uk.ac.ebi.ddi.gpmdb.extws.gpmdb.client.ModelGPMDBClientTest" name="testGeModelInformation"/>
+  <testcase time="2.352" classname="uk.ac.ebi.ddi.gpmdb.extws.gpmdb.client.ModelGPMDBClientTest" name="testGetAllProteins"/>
+  <testcase time="0.44" classname="uk.ac.ebi.ddi.gpmdb.extws.gpmdb.client.ModelGPMDBClientTest" name="testGeModelInformation"/>
 </testsuite>

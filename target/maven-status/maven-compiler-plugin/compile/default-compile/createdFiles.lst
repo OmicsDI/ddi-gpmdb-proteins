@@ -1,0 +1,6 @@
+uk/ac/ebi/ddi/gpmdb/extws/gpmdb/config/GPMDBWsConfigProd.class
+uk/ac/ebi/ddi/gpmdb/extws/gpmdb/config/AbstractGPMDBWsConfig.class
+uk/ac/ebi/ddi/gpmdb/extws/gpmdb/client/GPMDBClient.class
+uk/ac/ebi/ddi/gpmdb/extws/gpmdb/model/Model.class
+uk/ac/ebi/ddi/gpmdb/extws/gpmdb/client/ModelGPMDBClient.class
+uk/ac/ebi/ddi/gpmdb/GetGPMDBInformation.class
