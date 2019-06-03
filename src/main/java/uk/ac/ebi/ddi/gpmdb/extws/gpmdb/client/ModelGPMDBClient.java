@@ -14,14 +14,8 @@ public class ModelGPMDBClient extends GPMDBClient{
 
     private static final Logger logger = LoggerFactory.getLogger(ModelGPMDBClient.class);
 
-    /**
-     * Default constructor for Ws clients
-     *
-     * @param config
-     */
     public ModelGPMDBClient(AbstractGPMDBWsConfig config) {
         super(config);
-
     }
 
     /**

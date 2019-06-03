@@ -15,10 +15,6 @@ public class GPMDBClient {
 
     protected AbstractGPMDBWsConfig config;
 
-    /**
-     * Default constructor for Archive clients
-     * @param config
-     */
     public GPMDBClient(AbstractGPMDBWsConfig config){
         this.config = config;
         this.restTemplate = new RestTemplate();
